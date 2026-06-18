@@ -1,20 +1,24 @@
-# Workflow
+# VeriQuest Workflow
 
-1. Organizer creates a quest.
+1. Campaign creator creates a quest.
 
 2. Participants submit content.
 
-3. Intelligent Contract sends content for AI evaluation.
+3. GenLayer evaluates content.
 
-4. AI returns:
+4. AI generates:
 
 - Score
 - Reason
 
-5. Reward tier is assigned.
+5. Contract assigns:
+
+- Gold
+- Silver
+- Rejected
 
 6. Reputation is updated.
 
-7. Campaign status is updated.
+7. Winner is selected.
 
-8. Results remain permanently verifiable on-chain.
+8. Campaign receives final status.
