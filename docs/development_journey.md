@@ -1,12 +1,12 @@
 # Development Journey
 
-## V1 — AI Evaluation
+## V1 - AI Evaluation
 
 Features:
 
-- Quest Creation
-- Content Submission
-- AI Scoring
+* Quest Creation
+* Content Submission
+* AI Scoring
 
 Contract:
 
@@ -14,13 +14,13 @@ Contract:
 
 ---
 
-## V2 — User Profiles
+## V2 - User Profiles
 
 Features:
 
-- Score Tracking
-- Evaluation Count
-- User Profile
+* Average Score
+* Evaluation Count
+* User Profile
 
 Contract:
 
@@ -28,13 +28,13 @@ Contract:
 
 ---
 
-## V3 — Reward Logic
+## V3 - Reward Logic
 
 Features:
 
-- Gold Rewards
-- Silver Rewards
-- Rejected Tier
+* Gold Rewards
+* Silver Rewards
+* Rejected Tier
 
 Contract:
 
@@ -42,13 +42,13 @@ Contract:
 
 ---
 
-## V4 — Category Evaluation
+## V4 - Category Evaluation
 
 Features:
 
-- Education
-- Marketing
-- Research
+* Education
+* Marketing
+* Research
 
 Contract:
 
@@ -56,13 +56,13 @@ Contract:
 
 ---
 
-## V5 — Campaign Analytics
+## V5 - Campaign Analytics
 
 Features:
 
-- Average Score
-- Campaign Summary
-- Performance Tracking
+* Average Score
+* Campaign Summary
+* Statistics
 
 Contract:
 
@@ -70,13 +70,13 @@ Contract:
 
 ---
 
-## V6 — Winner Selection
+## V6 - Winner Selection
 
 Features:
 
-- Winning Submission
-- Winning Score
-- Campaign Decision
+* Winning Submission
+* Winning Score
+* Campaign Decision
 
 Contract:
 
@@ -84,14 +84,14 @@ Contract:
 
 ---
 
-## V7 — Reputation Protocol
+## V7 - Reputation Protocol
 
 Features:
 
-- Reputation Engine
-- Success Tracking
-- Failure Tracking
-- Reward History
+* Reputation Score
+* Success Tracking
+* Failure Tracking
+* Reward Tracking
 
 Contract:
 
