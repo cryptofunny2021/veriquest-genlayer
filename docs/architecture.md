@@ -1,53 +1,62 @@
 # VeriQuest Architecture
 
-VeriQuest consists of five major layers.
+## Overview
 
-## Quest Layer
-
-Responsible for campaign creation and configuration.
-
-## Evaluation Layer
-
-Uses GenLayer AI consensus to evaluate subjective content.
-
-## Reward Layer
-
-Assigns reward tiers based on evaluation scores.
-
-Reward Tiers:
-
-* Gold
-* Silver
-* Rejected
-
-## Reputation Layer
-
-Tracks:
-
-* Reputation Score
-* Successful Submissions
-* Failed Submissions
-* Reward History
-
-## Decision Layer
-
-Generates final campaign outcomes.
-
-Possible outcomes:
-
-* Approved
-* Review
-* Rejected
+VeriQuest is built around four core modules.
 
 ---
 
-Workflow:
+## Quest Engine
 
-Quest Creation
+Responsible for:
+
+- Campaign creation
+- Campaign metadata
+- Campaign category management
+
+---
+
+## AI Evaluation Engine
+
+Responsible for:
+
+- Content analysis
+- Score generation
+- Reason generation
+
+Uses GenLayer Intelligent Contracts.
+
+---
+
+## Reputation Engine
+
+Responsible for:
+
+- Reputation Score
+- Successful submissions
+- Failed submissions
+- Reward tracking
+
+---
+
+## Decision Engine
+
+Responsible for:
+
+- Winner selection
+- Campaign approval
+- Campaign rejection
+- Campaign review status
+
+---
+
+## Data Flow
+
+User
 
 ↓
 
-Content Submission
+Submit Content
 
 ↓
 
@@ -55,11 +64,7 @@ AI Evaluation
 
 ↓
 
-Score Assignment
-
-↓
-
-Reward Classification
+Reward Assignment
 
 ↓
 
@@ -68,7 +73,3 @@ Reputation Update
 ↓
 
 Campaign Decision
-
-↓
-
-Winner Selection
