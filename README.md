@@ -1,108 +1,103 @@
 # VeriQuest
 
-### AI-Powered Trustless Quest, Reputation & Campaign Protocol on GenLayer
+AI-Powered Trustless Quest, Reputation & Reward Protocol built on GenLayer.
 
-VeriQuest is a decentralized protocol built on GenLayer Intelligent Contracts that enables trustless content evaluation, automated campaign decisions, reputation tracking and AI-powered reward distribution.
-
-Instead of relying on centralized moderators, VeriQuest uses decentralized AI consensus to evaluate submissions, assign reward tiers and determine campaign outcomes.
+VeriQuest demonstrates how Intelligent Contracts can evaluate subjective content, assign rewards, track reputation, and automate campaign decisions through decentralized AI consensus.
 
 ---
 
 ## Problem
 
-Traditional quest and bounty platforms suffer from:
+Current quest and bounty platforms rely on centralized reviewers.
 
-* Human reviewer bias
-* Slow moderation
-* Expensive operations
-* Limited scalability
-* Lack of transparency
+This creates:
 
-VeriQuest solves this by moving content evaluation directly into GenLayer Intelligent Contracts.
+- Reviewer bias
+- Manual moderation
+- Slow reward distribution
+- Lack of transparency
+- Limited scalability
+
+As AI-generated content becomes more common, transparent evaluation systems become increasingly important.
 
 ---
 
-## Core Features
+## Solution
+
+VeriQuest uses GenLayer Intelligent Contracts to evaluate user submissions through AI consensus.
+
+The protocol can:
+
+- Evaluate content quality
+- Assign reward tiers
+- Track contributor reputation
+- Select campaign winners
+- Generate campaign decisions
+
+All results are stored on-chain.
+
+---
+
+## Key Features
 
 ### AI Content Evaluation
 
-Automatically evaluates submissions using AI reasoning.
+Evaluates:
 
-### Reputation Engine
+- Relevance
+- Quality
+- Clarity
+- Educational Value
+
+### Reward Engine
+
+Reward tiers:
+
+- Gold
+- Silver
+- Rejected
+
+### Reputation System
 
 Tracks:
 
-* Reputation Score
-* Successful Submissions
-* Failed Submissions
-* Gold Rewards
-* Silver Rewards
+- Reputation Score
+- Successful Submissions
+- Failed Submissions
+- Gold Rewards
+- Silver Rewards
 
-### Reward Distribution Logic
-
-Reward Tiers:
-
-* Gold
-* Silver
-* Rejected
-
-### Campaign Decision System
+### Campaign Decision Engine
 
 Automatically determines:
 
-* Approved
-* Review Required
-* Rejected
+- Approved
+- Review
+- Rejected
 
-### Winner Selection
-
-Tracks:
-
-* Winning Submission
-* Winning Score
-
-### Category-Aware Evaluation
-
-Supports:
-
-* Education
-* Marketing
-* Research
-* Community
-
-Each category uses different AI evaluation criteria.
+campaign status.
 
 ---
 
 ## Architecture
 
-```text
-Quest Creator
-      │
-      ▼
-Create Campaign
-      │
-      ▼
-Participant Submission
-      │
-      ▼
-GenLayer AI Evaluation
-      │
-      ▼
-Score Generation
-      │
-      ▼
-Reward Assignment
-      │
-      ▼
-Reputation Update
-      │
-      ▼
-Campaign Decision
-      │
-      ▼
-Winner Selection
-```
+VeriQuest consists of four modules:
+
+### Quest Engine
+
+Creates campaigns and stores metadata.
+
+### AI Evaluation Engine
+
+Scores content using GenLayer AI consensus.
+
+### Reputation Engine
+
+Tracks contributor performance.
+
+### Decision Engine
+
+Selects winners and determines campaign outcomes.
 
 ---
 
@@ -111,77 +106,71 @@ Winner Selection
 ```mermaid
 flowchart TD
 
-A[Organizer Creates Quest]
---> B[Participant Submits Content]
+A[Create Quest]
+--> B[Submit Content]
 
-B --> C[GenLayer Intelligent Contract]
+B --> C[AI Evaluation]
 
-C --> D[AI Evaluation]
+C --> D{Score}
 
-D --> E[Score Generated]
+D -->|80-100| E[Gold Reward]
 
-E --> F{Reward Tier}
+D -->|40-79| F[Silver Reward]
 
-F -->|80-100| G[Gold]
+D -->|0-39| G[Rejected]
 
-F -->|40-79| H[Silver]
+E --> H[Update Reputation]
+F --> H
+G --> H
 
-F -->|0-39| I[Rejected]
-
-G --> J[Reputation Update]
-H --> J
-I --> J
-
-J --> K[Campaign Decision]
-
-K --> L[On-Chain Verification]
+H --> I[Campaign Decision]
 ```
 
 ---
 
-## Development Evolution
-
-| Version | Feature             |
-| ------- | ------------------- |
-| V1      | AI Evaluation       |
-| V2      | User Profiles       |
-| V3      | Reward Logic        |
-| V4      | Category Evaluation |
-| V5      | Campaign Analytics  |
-| V6      | Winner Selection    |
-| V7      | Reputation Protocol |
-
----
-
-## Contract Deployments
+## Development Journey
 
 ### V1
 
-0xDb248bD4bF26e9aEB14be9C7066f0007871D8F4f
+Basic AI Evaluation Contract
 
 ### V2
 
-0x42F77cFb3DAf663AB2843AF9606822A5D3d9701d
+Profile Tracking
 
 ### V3
 
-0xE64AF422808355b83126A3961BC99063844e1713
+Reward Logic
 
 ### V4
 
-0x5CFCaEBA8e2Cdb6205e4141bAcDCe12f1D6fc262
+Category-Based Evaluation
 
 ### V5
 
-0x830A777B7DcA712D8F82F6AD91908a327f4CC1A6
+Campaign Analytics
 
 ### V6
 
-0x0d12B68C30F80B72856310D3236CDf7D34068243
+Winner Selection System
 
 ### V7
 
-0x82926b49cd434F7957c4e7518Dc706d51727019a
+Reputation Protocol
+
+---
+
+## Deployments
+
+| Version | Feature | Contract Address |
+|----------|----------|----------|
+| V1 | AI Evaluation | 0xDb248bD4bF26e9aEB14be9C7066f0007871D8F4f |
+| V2 | User Profiles | 0x42F77cFb3DAf663AB2843AF9606822A5D3d9701d |
+| V3 | Reward Logic | 0xE64AF422808355b83126A3961BC99063844e1713 |
+| V4 | Category Evaluation | 0x5CFCaEBA8e2Cdb6205e4141bAcDCe12f1D6fc262 |
+| V5 | Campaign Analytics | 0x830A777B7DcA712D8F82F6AD91908a327f4CC1A6 |
+| V6 | Winner Selection | 0x0d12B68C30F80B72856310D3236CDf7D34068243 |
+| V7 | Reputation Protocol | 0x82926b49cd434F7957c4e7518Dc706d51727019a |
 
 ---
 
@@ -189,28 +178,32 @@ K --> L[On-Chain Verification]
 
 ### V8
 
-Multi-user competition system
+Multi-user Competition System
 
 ### V9
 
-Escrow reward pools
+Escrow-Based Token Rewards
 
 ### V10
 
-DAO governance integration
+DAO Managed Campaigns
 
 ### V11
 
-Cross-campaign reputation marketplace
+Cross-Platform Social Quests
+
+### V12
+
+On-Chain Reputation Marketplace
 
 ---
 
 ## Author
 
-Twitter:
-
+X (Twitter):
 @cryptofunny724
 
-Built on GenLayer Intelligent Contracts
+GitHub:
+cryptofunny2021
 
-Builder Program 2026
+Built during the GenLayer Builder Program.
