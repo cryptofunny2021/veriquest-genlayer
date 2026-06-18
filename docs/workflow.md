@@ -4,51 +4,56 @@
 
 Campaign creator creates a quest.
 
+---
+
 ## Step 2
 
 Participants submit content.
 
+---
+
 ## Step 3
 
-GenLayer Intelligent Contract receives submissions.
+AI evaluates content.
+
+Returned output:
+
+- Score
+- Reason
+
+---
 
 ## Step 4
 
-AI evaluates content quality.
+Reward Engine assigns:
 
-AI returns:
+Gold:
+80-100
 
-* Score
-* Reason
+Silver:
+40-79
+
+Rejected:
+0-39
+
+---
 
 ## Step 5
 
-Reward tier is assigned.
+Reputation system updates contributor profile.
 
-Possible tiers:
-
-* Gold
-* Silver
-* Rejected
+---
 
 ## Step 6
 
-Reputation is updated.
+Decision engine selects winner.
+
+---
 
 ## Step 7
 
-Winner is selected.
+Campaign status becomes:
 
-## Step 8
-
-Campaign status is generated.
-
-Possible statuses:
-
-* Approved
-* Review
-* Rejected
-
-## Step 9
-
-All results remain verifiable on-chain.
+- Approved
+- Review
+- Rejected
