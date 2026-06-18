@@ -1,1 +1,29 @@
 
+```mermaid
+flowchart TD
+
+A[Organizer Creates Quest]
+--> B[Participant Submits Content]
+
+B --> C[GenLayer Intelligent Contract]
+
+C --> D[AI Evaluation]
+
+D --> E[Score Generated]
+
+E --> F{Reward Tier}
+
+F -->|80-100| G[Gold]
+
+F -->|40-79| H[Silver]
+
+F -->|0-39| I[Rejected]
+
+G --> J[Reputation Update]
+H --> J
+I --> J
+
+J --> K[Campaign Decision]
+
+K --> L[On-Chain Verification]
+```
