@@ -1,75 +1,39 @@
-# VeriQuest Testing
+# Testing Results
 
-## V1
+## Test 1
 
-Verified AI evaluation.
+Low quality content
 
-Status:
-Success
+Score: 0
 
----
+Result: Rejected
 
-## V2
+## Test 2
 
-Verified profile tracking.
+Basic educational content
 
-Status:
-Success
+Score: 40-60
 
----
+Result: Silver
 
-## V3
+## Test 3
 
-Verified reward assignment.
+High quality educational content
 
-Status:
-Success
+Score: 80+
 
----
+Result: Gold
 
-## V4
+## Reputation Tests
 
-Verified category-based evaluation.
+Successful submissions increase reputation.
 
-Status:
-Success
+Failed submissions reduce overall contributor performance.
 
----
+## Campaign Decision Tests
 
-## V5
+Winning scores above 80 result in Approved status.
 
-Verified campaign analytics.
+Scores between 40 and 79 result in Review.
 
-Status:
-Success
-
----
-
-## V6
-
-Verified winner selection.
-
-Status:
-Success
-
----
-
-## V7
-
-Verified reputation system.
-
-Status:
-Success
-
----
-
-## Final Result
-
-The protocol successfully demonstrates:
-
-- AI Evaluation
-- Reputation Tracking
-- Winner Selection
-- Campaign Decisions
-
-using GenLayer Intelligent Contracts.
+Scores below 40 result in Rejected.
