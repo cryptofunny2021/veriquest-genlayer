@@ -1,54 +1,60 @@
 # VeriQuest Architecture
 
-VeriQuest is an AI-powered reputation and campaign evaluation system built on GenLayer.
+VeriQuest is built around four interconnected modules.
 
-## Core Flow
+## Quest Engine
 
-1. Campaign creator creates a quest
-2. Participants submit content
-3. Intelligent Contract evaluates content
-4. AI returns a score and reasoning
-5. Reputation is updated
-6. Best submission is selected
-7. Campaign status is determined
+Responsible for:
 
-## Components
+* Campaign creation
+* Metadata storage
+* Category management
 
-### Quest Engine
+## AI Evaluation Engine
 
-Stores:
+Responsible for:
 
-* Title
-* Description
-* Category
+* Content scoring
+* AI consensus evaluation
+* Quality assessment
 
-### Evaluation Engine
+## Reputation Engine
 
-Uses GenLayer AI evaluation to score content.
+Responsible for:
 
-### Reputation Engine
+* Reputation score tracking
+* Success history
+* Contributor performance
 
-Tracks:
+## Decision Engine
 
-* Successful submissions
-* Failed submissions
-* Gold rewards
-* Silver rewards
-* Reputation score
+Responsible for:
 
-### Campaign Decision Engine
+* Winner selection
+* Campaign approval
+* Campaign review
+* Campaign rejection
 
-Determines:
+## Data Flow
 
-* Approved
-* Review
-* Rejected
+Quest Creation
 
-based on the highest quality submission.
+↓
 
-## Future Expansion
+Content Submission
 
-* Escrow rewards
-* Multi-user storage
-* DAO integration
-* Governance
+↓
+
+AI Evaluation
+
+↓
+
+Reward Assignment
+
+↓
+
+Reputation Update
+
+↓
+
+Campaign Decision
