@@ -1,36 +1,37 @@
 # VeriQuest Roadmap
 
-## Phase 1 - Completed
+## Completed
 
-* Basic AI content evaluation
-* Score extraction
-* Reward tiers
-* Campaign summary
-* Reputation tracking
-* Winning submission selection
+- V1: Basic AI Evaluation Contract
+- V2: User Profile Tracking
+- V3: Reward Logic
+- V4: Category-Based Evaluation
+- V5: Campaign Analytics
+- V6: Winner Selection System
+- V7: Reputation Protocol
 
-## Phase 2
+## Next Milestones
 
-* Multi-user reputation storage
-* Per-wallet contributor profiles
-* Historical campaign records
-* Campaign ownership
+### V8: Multi-user Competition System
+- Team submissions
+- Head-to-head challenges
+- Leaderboard integration
 
-## Phase 3
+### V9: Escrow-Based Token Rewards
+- Native token escrow
+- Secure reward distribution
 
-* Escrow-based reward distribution
-* On-chain reward payouts
-* Token incentives
+### V10: DAO Managed Campaigns
+- Community governance
+- Parameter voting
 
-## Phase 4
+## Future
 
-* DAO campaign creation
-* Community governance
-* Reputation-weighted voting
+- V11: Cross-Platform Social Quests
+- V12: On-Chain Reputation Marketplace
+- V13: Multi-modal Evaluation
+- V14: Major Platform Integrations
 
-## Phase 5
+---
 
-* Frontend dashboard
-* Leaderboards
-* Analytics
-* SDK integrations
+Goal: Become the leading trustless evaluation layer on GenLayer.
