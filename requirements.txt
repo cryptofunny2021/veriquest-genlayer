@@ -1,0 +1,5 @@
+genlayer-py @ git+https://github.com/genlayerlabs/genlayer-py.git
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+black>=24.0.0
+isort>=5.0.0
