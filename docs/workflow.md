@@ -1,59 +1,37 @@
 # VeriQuest Workflow
 
-## Step 1
+1. Create Quest
 
-Campaign creator creates a quest.
+Campaign creator creates a new challenge.
 
----
+2. Submit Content
 
-## Step 2
+Contributors submit content.
 
-Participants submit content.
+3. AI Evaluation
 
----
+GenLayer evaluates content using decentralized AI consensus.
 
-## Step 3
+4. Reward Assignment
 
-AI evaluates content.
+Content receives:
 
-Returned output:
+* Gold
+* Silver
+* Rejected
 
-- Score
-- Reason
+5. Reputation Update
 
----
+Contributor reputation is updated.
 
-## Step 4
+6. Campaign Decision
 
-Reward Engine assigns:
+Protocol determines:
 
-Gold:
-80-100
+* Approved
+* Review
+* Rejected
 
-Silver:
-40-79
+7. Winner Selection
 
-Rejected:
-0-39
-
----
-
-## Step 5
-
-Reputation system updates contributor profile.
-
----
-
-## Step 6
-
-Decision engine selects winner.
-
----
-
-## Step 7
-
-Campaign status becomes:
-
-- Approved
-- Review
-- Rejected
+Highest scoring submission becomes the winner.
